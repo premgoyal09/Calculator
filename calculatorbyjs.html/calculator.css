@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.bg{
+    height: 550px;
+    width: 100%;
+    background-color: lightblue;
+}
+.cl-bg{
+    height: 500px;
+    width: 340px;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnrow1 button{
+    padding: 9%;
+}   
+.btnrow2 button{
+    padding: 9%;
+}
+.btnrow3 button{
+    padding: 9%;
+}
+.btnrow4 button{
+    padding: 9%;
+}
+.oranpert{    
+    background-color: orange;
+    border-radius: 50%;
+}
+.ac{
+    background-color: darkgray;
+    border-radius: 50%;
+}
+.del{
+    background-color: darkgray;   
+    border-radius: 50%;
+}
+.percentile{
+    background-color: darkgray;   
+    border-radius: 50%;
+}
+.rtwo{
+    
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+    margin-left: 10px;
+    padding: 7%;
+    border-radius: 50%;
+}
+.rzero{
+    background-color: rgb(50, 50, 50);
+    color: #ffffff;
+    /* padding: 20px 60px; */
+    padding: 9%;
+    border-radius: 24%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.rdot{
+    background-color: rgb(50, 50, 50);
+    padding: 7%;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.oranpertto{
+    background-color: orange;
+    padding: 8%;
+    border-radius: 50px;
+    /* margin-left: 20px; */
+}
+.inputfunction input{
+    border-style: none; 
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-bottom: 1px solid black;
+    color: #ffffff;
+    outline: 0;
+    background: transparent;
+    width: 50%;
+    font-size: 40px;
+    border-bottom: 10px;
+}

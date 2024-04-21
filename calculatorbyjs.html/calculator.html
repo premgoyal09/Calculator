@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="bg">
+    
+        <div class="cl-bg">
+            <div class="inputfunction">
+                <input type="text"  id="display" maxlength="20" autofocus="" maxwidth="20" readonly> 
+            </div>
+            <div class="btnrow1">
+                <button onclick="clearDisplay('')" class="ac">AC</button>
+                <button onclick="clearDisplay('')" class="del">DEL</button>
+                <button onclick="appendToDisplay('%')" class="percentile">%</button>
+                <button onclick="appendToDisplay('/')" class="oranpert">/</button>
+            </div>
+            <div class="btnrow2">
+                <button onclick="appendToDisplay('7')" class="rtwo">7</button>
+                <button onclick="appendToDisplay('8')" class="rtwo">8</button>
+                <button onclick="appendToDisplay('9')" class="rtwo">9</button>
+                <button onclick="appendToDisplay('*')" class="oranpert">*</button>
+            </div>
+            <div class="btnrow3">
+                <button class="rtwo" onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')" class="rtwo">5</button>
+                <button onclick="appendToDisplay('6')" class="rtwo">6</button>
+                <button onclick="appendToDisplay('-')" class="oranpert">-</button>
+            </div>
+            <div class="btnrow4">
+                <button onclick="appendToDisplay('1')" class="rtwo">1</button>
+                <button onclick="appendToDisplay('2')" class="rtwo">2</button>
+                <button onclick="appendToDisplay('3')" class="rtwo">3</button>
+                <button onclick="appendToDisplay('+')" class="oranpert">+</button>
+            </div>
+            <div class="btnrow5">
+                <button onclick="appendToDisplay('00')" class="rzero">00</button>
+                <button onclick="appendToDisplay('0')" class="rzero">0</button>
+                <button onclick="appendToDisplay('.')" class="rdot">.</button>
+                <button onclick="calculate()" class="oranpertto">=</button>
+            </div>
+        </div>
+    </div>
+    
+
+     <script src="calculator.js"></script>
+</body>
+</html>
